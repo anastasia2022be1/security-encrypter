@@ -1,14 +1,16 @@
 {
+  "type": "module",
   "name": "security-encrypter",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Anastasia Sevastianova",
   "license": "ISC",
-  "description": "",
+  "description": "A simple encryption and decryption service using Express.js. It provides endpoints to encrypt and decrypt messages using ROT-13 and vowel replacement.",
   "dependencies": {
     "express": "^4.21.1"
   }
